@@ -20,7 +20,7 @@ a collaboration of week 4 assignments in level 2
   - Learn how to create layouts using Flexbox with plain CSS.
   - Apply Flexbox utility classes in Tailwind CSS.
 
-`tailwind`
+`tailwind files`
 
 3. Tailwind CSS Lab: Responsive Image Gallery
     
@@ -37,4 +37,4 @@ a collaboration of week 4 assignments in level 2
   - Learn how to create layouts using CSS Grid.
   - Apply Grid utility classes in Tailwind CSS.
  
-  `grid-layout`
+  `grid-layout files`
