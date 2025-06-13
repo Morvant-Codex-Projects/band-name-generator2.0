@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+ <head>
+  <nav>
+     <a href="index.html">Band Name Generator</a>
+     <a href="Image-Gallery.html">Image Gallery</a>
+  </nav>
+
+ <meta charset="UTF-8" />
+
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+ <title>Band Name Generator</title>
+
+ 
+
+ </head>
+
+ <body>
+
+ <div>
+
+ <h1>Rad Band Name Generator</h1>
+
+ <p>Click the button to reveal your new band name.</p>
+
+
+
+ <div id="band-name">
+
+ <!-- Band name will appear here -->
+
+ </div>
+
+
+
+ <button id="generate-btn">Generate Name</button>
+
+ </div>
+
+
+<footer>&copy Morvant-Codex-Projects</footer>
+ <script>
+
+ const adjectives = ["Funky", "Loud", "Silent", "Electric", "Wicked", "Groovy", "Coded", "Notorious", "Amphibious"];
+
+ const nouns = ["Penguins", "Wizards", "Socks", "Robots", "Bananas", "Crows", "Ninjas", "Mamas", "Pearls"];
+
+
+
+ function getAdjective() {
+
+ // TODO: return a random adjective from the adjectives array
+
+ }
+
+
+
+ function getNoun() {
+
+ // TODO: return a random noun from the nouns array
+
+ }
+
+
+
+ function generateBandName() {
+
+ // TODO: use getAdjective() and getNoun() to build a band name
+
+ // Format: "The Adjective Noun"
+
+ // Then update the DOM to show the band name inside #band-name
+
+ }
+
+
+
+ document.getElementById("generate-btn").addEventListener("click", generateBandName);
+
+ </script>
+
+ </body>

@@ -1,0 +1,24 @@
+.grid-container {
+    display: grid; /*activate the grid system */
+    grid-template-columns: 1fr 1fr 1fr; /*1fr represents 1 column*/
+    gap: 10px;
+    background-color: rgb(18, 93, 68);
+    height: 300px;
+
+/* NESTING SYNTAX SELECTS CHILD ELEMENTS IN THE PARENT ELEMENT*/
+div {
+background-color: blueviolet;
+height: 100px;
+
+}
+
+#item4 {
+background-color: red;
+grid-column: span 2; /* SPREAD OVER 2 COLUMNS */
+
+#item9 {
+height: 100%;
+background-color:
+grid-column: span 3; /* SPREAD OVER 3 COLUMNS*/
+grid-row: span 20; /* SPREAD OVER 20 ROWS */
+
