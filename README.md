@@ -10,6 +10,8 @@ a collaboration of week 4 assignments in level 2
   - Understand the basics of CSS Grid.
   - Learn how to create layouts using CSS Grid.
   - Apply Grid utility classes in Tailwind CSS.
+ 
+    `band name generator files`
 
 2. Flexbox with Tailwind CSS
    
@@ -22,6 +24,9 @@ a collaboration of week 4 assignments in level 2
     
 - OBJ
   - You will style a responsive image gallery using Tailwind CSS. The project comes with working JavaScript that fetches real image data from the Lorem Picsum API — your job is to build a clean, modern layout using Tailwind utilities.
+
+  `Image Gallery Files`
+
  
 4. Grid CSS and Tailwind
     
