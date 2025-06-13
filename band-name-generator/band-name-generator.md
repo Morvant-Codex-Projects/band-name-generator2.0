@@ -11,9 +11,11 @@
 - Build and deploy a polished mini-project to GitHub Pages.
 
 ## The Challenge
+
 You've received some starter code! The Band Name Generator has great structure — now it needs a brain and some flair. This week, you’ll write the logic to randomly generate a band name when a user clicks a button. You'll style it with Tailwind CSS
 
 ## Part 1: Setup & Data
+
 Tasks
 
 - Use the provided starter HTML file
@@ -33,6 +35,7 @@ Complete the empty JavaScript functions:
 “The Funky Wizards”
 
 ## Part 2: Make It Work
+
 Tasks
 
 - Add a click event listener to the Generate Name button
@@ -41,7 +44,7 @@ Tasks
 
 - Call generateBandName()
 
-- Display the name in the div id="band-name" 
+- Display the name in the div id="band-name"
 
 - element
 
@@ -71,4 +74,3 @@ Use utility classes for:
 - Project is deployed to GitHub Pages
 
 - You used Git properly (ACP regularly)
-kgujhfgiukytfuytrfdhjtgrufdujtgrdfrj kyiu
