@@ -1,6 +1,6 @@
 # Tailwind Installation Explained!
 
-Installation
+## Installation
 
 1. Paste the CDN `<script>` tag from the Tailwind website into the `<head>` of the .html file. 
 https://tailwindcss.com/docs/installation/play-cdn
@@ -17,12 +17,13 @@ https://tailwindcss.com/docs/installation/play-cdn
 
 4. Install the VS Code extension: Tailwind CSS IntelliSense
 
-Grid
+### Grid
+
 1. `class="grid"` activates the grid system
 2. `class="grid grid-cols-2"` tells the grid system to set up 2 columns for mobile first
 3. `class="grid sm:grid-cols-3` tells the grid system to set up 3 columns for small+ devices
 
-Utility classes
+### Utility classes
 
 . Font size `text-1g text-x1 text-2x1` https://tailwindcss.com/docs/font-size
 
