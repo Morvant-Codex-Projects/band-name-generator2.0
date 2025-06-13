@@ -19,4 +19,7 @@
 3. Click on the `Text actions` icon
 4. Click `Copy all text`
 
+### Single Source of Truth
 
+- Have a central source of code that other code depends on instead of copying that code over and over
+  

@@ -19,3 +19,7 @@ function myFunction() {
 
 myFunction(); //ACTIVATES THE FUNCTION
 ```
+
+### Navbar - single source of truth
+
+1. Create `navbar.js`
