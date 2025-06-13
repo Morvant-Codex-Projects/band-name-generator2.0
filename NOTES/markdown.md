@@ -1,6 +1,6 @@
 # Markdown (title)
 
-### Formatting (section)
+## Formatting (section)
 
 1. This
 2. is
@@ -23,7 +23,7 @@
 `Use backticks line of code`
 `or to highlight text`
 
-```
+```text
 Use triple backticks for a block of code
 ```
 
@@ -40,3 +40,4 @@ console.log("javascript or js can specify this code block");
 ### Extension
 
 - [Markdown All in one by Yu Zhang](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+  

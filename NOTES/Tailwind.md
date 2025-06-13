@@ -1,21 +1,23 @@
-# Tailwind Installation Explained!
+# Tailwind Installation Explained
 
 ## Installation
 
-1. Paste the CDN `<script>` tag from the Tailwind website into the `<head>` of the .html file. 
-https://tailwindcss.com/docs/installation/play-cdn
+1. Paste the CDN `<script>` tag from the Tailwind website into the `<head>` of the .html file.
+`https://tailwindcss.com/docs/installation/play-cdn`
+
 ```html
 | <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 ```
 
-2. Add @import "tailwindcss" to a .css file (example: style.css)
+1. Add @import "tailwindcss" to a .css file (example: style.css)
 
-3. Add the .css file to the .html file with the <link> tag.
+2. Add the .css file to the .html file with the `<link>` tag.
+
 ```html
 <link href="style.css" rel="stylesheet" />
 ```
 
-4. Install the VS Code extension: Tailwind CSS IntelliSense
+1. Install the VS Code extension: Tailwind CSS IntelliSense
 
 ### Grid
 
@@ -25,8 +27,8 @@ https://tailwindcss.com/docs/installation/play-cdn
 
 ### Utility classes
 
-. Font size `text-1g text-x1 text-2x1` https://tailwindcss.com/docs/font-size
+. Font size `text-1g text-x1 text-2x1` [https://tailwindcss.com/docs/font-size]
 
-. Breakpoints `sm: md: 1g:` https://tailwindcss.com/docs/responsive-design
+. Breakpoints `sm: md: 1g:` [https://tailwindcss.com/docs/responsive-design]
 
-. Gaps `gap-3 gap-x-3 gap-y-3` https://tailwindcss.com/docs/gap
+. Gaps `gap-3 gap-x-3 gap-y-3` [https://tailwindcss.com/docs/gap]

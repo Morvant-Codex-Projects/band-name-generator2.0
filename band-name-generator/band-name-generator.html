@@ -41,6 +41,7 @@
 
 
 <footer>&copy Morvant-Codex-Projects</footer>
+
  <script>
 
  const adjectives = ["Funky", "Loud", "Silent", "Electric", "Wicked", "Groovy", "Coded", "Notorious", "Amphibious"];
@@ -50,23 +51,23 @@
 
 
  function getAdjective() {
-
  // TODO: return a random adjective from the adjectives array
-
+   var adjective = adjectives[Math.floor(Math.random()
+*items.length)];
  }
 
 
 
  function getNoun() {
-
- // TODO: return a random noun from the nouns array
-
+// TODO: return a random noun from the nouns array
+    var noun = nouns[Math.floor(Math.random()
+*items.length)];
  }
 
 
 
  function generateBandName() {
-
+    getAdjective.getNoun
  // TODO: use getAdjective() and getNoun() to build a band name
 
  // Format: "The Adjective Noun"

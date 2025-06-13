@@ -4,7 +4,7 @@
 
 - Add `defer` to `<script>` run only after the page loads. This is useful when the script needs an element and does something like `document.getElementById("myId")'
 
-```
+```html
 <script src="imageGallery.js" defer></script>
 ```
 
