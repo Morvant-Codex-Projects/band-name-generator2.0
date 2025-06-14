@@ -3,14 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Image Gallery</title>
+    <title>Tailwind Flexbox</title>
     <link href="tailwind.css" rel="stylesheet" />
-    <link href="flexbox.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <script src="POKEMON.js" defer></script>
-    <script src="image-gallery.js" defer></script>
+    <!--<script src="POKEMON.js" defer></script>--->
   </head>
-  <body class="bg-amber-300">
+  <body class="bg-yellow-400">
     <header class="grid grid-cols-5 gap-5">
       <a href="index.html">Home</a>
       <a href="pokemon.html">Pokemon</a>
@@ -19,11 +17,12 @@
       <a href="tailwindFlexbox.html">Tailwind</a>
     </header>
     <main>
-      <h1 class="bg-amber-800 p-7">Image Gallery</h1>
-      <div
-        id="gallery"
-        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
-      ></div>
+      <h1 class="bg-amber-800 p-4">Tailwind Flexbox</h1>
+      <div class="flex flex-row justify-center">
+        <div class="w-25 h-25 bg-blue-900 content-center text-center">item 1</div>
+        <div class="w-25 h-25 bg-green-900 content-center text-center" >item 2</div>
+        <div class="w-25 h-25 bg-red-900 content-center text-center">item 3</div>
+      </div>
     </main>
     <footer>&copy Morvant-Codex-Projects</footer>
   </body>
