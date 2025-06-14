@@ -9,6 +9,6 @@ async function displayPokemon() {
         const response = await fetch(pokemon.url);
         const data = await response.json();
         const src = data.sprites.front_default;
-        pokemonsElement.innerHTML += `<div><p class="text-3x1">${name}</p><img src=${src} width="200px"/></div>`
+        pokemonsElement.innerHTML += `<div class="bg-blue-500"><p class="text-3x1">${name}</p><img src=${src} width="200px"/></div>`
     }
  }

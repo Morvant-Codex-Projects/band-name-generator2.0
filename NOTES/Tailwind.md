@@ -9,15 +9,15 @@
 | <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 ```
 
-1. Add @import "tailwindcss" to a .css file (example: style.css)
+2. Add @import "tailwindcss" to a .css file (example: style.css)
 
-2. Add the .css file to the .html file with the `<link>` tag.
+3. Add the .css file to the .html file with the `<link>` tag.
 
 ```html
 <link href="style.css" rel="stylesheet" />
 ```
 
-1. Install the VS Code extension: Tailwind CSS IntelliSense
+4. Install the VS Code extension: Tailwind CSS IntelliSense
 
 ### Grid
 
