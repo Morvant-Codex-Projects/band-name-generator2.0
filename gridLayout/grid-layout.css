@@ -8,9 +8,20 @@
 
 /* NESTING SYNTAX SELECTS CHILD ELEMENTS IN THE PARENT ELEMENT*/
 div {
-background-color: rgb(17, 65, 109);
+background-color: rgb(67, 110, 151);
 height: 100px;
+  }
+}
 
+.gumbo {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    gap: 10px;
+
+    div{
+        background-color: rgb(92, 154, 45);
+        height: 100px;
+    }
 }
 
 #item4 {
