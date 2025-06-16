@@ -1,7 +1,9 @@
   const navbar =`<nav>
-     <a href="brand-name-generator.html">Band Name Generator</a>
-     <a href="Image-Gallery.html">Image Gallery</a>
-     <a href="grid-layout.html">Grid</a>
+      <a href="index.html" class="bg-red-600" >Home</a>
+      <a href="pokemon.html" class="bg-red-600">Pokemon</a>
+      <a href="Image-Gallery.html" class="bg-red-600">Image Gallery</a>
+      <a href="flexbox.html"class="bg-red-600" >Flexbox</a>
+       <a href="tailwindFlexbox.html" class="bg-red-600">Tailwind</a>
   </nav>`;
 
 // GET THE HEADER ELEMENT
