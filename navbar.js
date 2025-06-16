@@ -1,5 +1,5 @@
   const navbar =`<nav>
-      <a href="index.html" class="bg-red-600" >Home</a>
+      <a href="index.html" class="bg-red-600">Home</a>
       <a href="pokemon.html" class="bg-red-600">Pokemon</a>
       <a href="Image-Gallery.html" class="bg-red-600">Image Gallery</a>
       <a href="flexbox.html"class="bg-red-600" >Flexbox</a>
