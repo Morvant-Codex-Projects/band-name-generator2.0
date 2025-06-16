@@ -2,7 +2,7 @@
     display: grid; /*activate the grid system */
     grid-template-columns: 1fr 1fr 1fr; /*1fr represents 1 column*/
     gap: 10px;
-    background-color: rgb(18, 93, 68);
+    background-color: rgb(116, 63, 94);
     height: 300px;
 
 /* NESTING SYNTAX SELECTS CHILD ELEMENTS IN THE PARENT ELEMENT*/
