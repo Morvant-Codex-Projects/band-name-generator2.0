@@ -16,4 +16,16 @@ grid-template-columns: 1fr 1fr 1fr;
 
 ### customizing item sizes
 
--`grid-columns` specifies how many columns an item should span (stretch)
+- `grid-columns` specifies how many columns an item should span (stretch)
+- `span` specifies the number of columns:
+
+```css
+grid-column: span 2;
+```
+
+- `grid-row` specifies how many rows an item should spread over (span)
+- `span` specifies the number of columns:
+
+```css
+grid-row:span 35;
+```

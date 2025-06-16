@@ -36,8 +36,8 @@
         background-color: rgb(88, 39, 134);
             grid-column: span 3;
         /* SPREAD OVER 3 COLUMNS*/
-        grid-row: span 20;
-        /* SPREAD OVER 20 ROWS */
+        grid-row: span 25;
+        /* SPREAD OVER 25 ROWS */
 
     }
 }
