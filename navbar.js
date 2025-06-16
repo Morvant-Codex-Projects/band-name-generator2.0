@@ -8,7 +8,5 @@
 
 // GET THE HEADER ELEMENT
 const header = document.getElementById("header");
-header.innerHTML = navbar;
-
 // INSERT THE NAVBAR INTO THE HEADER
 header.innerHTML = navbar;

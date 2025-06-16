@@ -1,18 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="grid-layout.css" rel="stylesheet"/>
-    <link href="pretty.css" rel="stylesheet"/>
-     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-</head>
+ <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Layout</title>
+    <link href="tailwind.css" alt="stylesheet" />
+    <link href="flexbox.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="navbar.js" defer></script>
+    <script src="POKEMON.js" defer></script>
+  </head>
+  <body class="bg-amber-300">
+    <header id="header" class="grid grid-cols-6 gap-5"> 
+      <a href="index.html" class="bg-red-600">Home</a>
+      <a href="pokemon.html" class="bg-red-600">Pokemon</a>
+      <a href="Image-Gallery.html" class="bg-red-600">Image Gallery</a>
+      <a href="flexbox.html" class="bg-red-600">Flexbox</a>
+      <a href="tailwindFlexbox.html" class="bg-red-600">Tailwind</a>
+      <a href="grid-layout.html" class="bg-red-600"></a>
+    </header>
+    <main>
+      <h1 class="bg-amber-800 p-7">Grid Layout</h1>
+    </main>
 <body>
     <div class="grid-container">
     <div>Item 1</div>
     <div>Item 2</div>
     <div>Item 3</div>
     </div>
+     <footer>&copy Morvant-Codex-Projects</footer>
 </body>
 </html>
