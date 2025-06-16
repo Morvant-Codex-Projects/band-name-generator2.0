@@ -1,16 +1,18 @@
 .grid-container {
-    display: grid; /*activate the grid system */
-    grid-template-columns: 1fr 1fr 1fr; /*1fr represents 1 column*/
+    display: grid;
+    /*activate the grid system */
+    grid-template-columns: 1fr 1fr 1fr;
+    /*1fr represents 1 column*/
     gap: 10px;
     background-color: rgb(116, 63, 94);
     height: 120px;
 
 
-/* NESTING SYNTAX SELECTS CHILD ELEMENTS IN THE PARENT ELEMENT*/
-div {
-background-color: rgb(67, 110, 151);
-height: 100px;
-  }
+    /* NESTING SYNTAX SELECTS CHILD ELEMENTS IN THE PARENT ELEMENT*/
+    div {
+        background-color: rgb(67, 110, 151);
+        height: 100px;
+    }
 }
 
 .gumbo {
@@ -18,19 +20,24 @@ height: 100px;
     grid-template-columns: 1fr 2fr 3fr;
     gap: 10px;
 
-    div{
+    div {
         background-color: rgb(92, 154, 45);
         height: 100px;
     }
+
+    #item4 {
+        background-color: rgb(97, 58, 238);
+        grid-column: span 2;
+        /* SPREAD OVER 2 COLUMNS */
+    }
+
+    #item9 {
+        height: 100%;
+        background-color: rgb(88, 39, 134);
+            grid-column: span 3;
+        /* SPREAD OVER 3 COLUMNS*/
+        grid-row: span 20;
+        /* SPREAD OVER 20 ROWS */
+
+    }
 }
-
-#item4 {
-background-color: red;
-grid-column: span 2; /* SPREAD OVER 2 COLUMNS */
-
-#item9 {
-height: 100%;
-background-color:
-grid-column: span 3; /* SPREAD OVER 3 COLUMNS*/
-grid-row: span 20; /* SPREAD OVER 20 ROWS */
-
