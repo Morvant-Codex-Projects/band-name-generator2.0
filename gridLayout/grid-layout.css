@@ -3,11 +3,12 @@
     grid-template-columns: 1fr 1fr 1fr; /*1fr represents 1 column*/
     gap: 10px;
     background-color: rgb(116, 63, 94);
-    height: 300px;
+    height: 120px;
+
 
 /* NESTING SYNTAX SELECTS CHILD ELEMENTS IN THE PARENT ELEMENT*/
 div {
-background-color: blueviolet;
+background-color: rgb(17, 65, 109);
 height: 100px;
 
 }
